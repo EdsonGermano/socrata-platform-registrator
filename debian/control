@@ -1,0 +1,9 @@
+Source: registrator
+Section: misc
+Priority: extra
+Maintainer: Brian Oldfield <brian.oldfield@socrata.com>
+Standards-Version: 3.9.4
+
+Package: registrator
+Architecture: any
+Description: Service registry bridge for Docker
