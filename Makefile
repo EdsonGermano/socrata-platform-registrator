@@ -33,7 +33,7 @@ build-deps:
 	go get github.com/coreos/go-etcd
 	go get github.com/hashicorp/consul
 	go get gopkg.in/coreos/go-etcd.v0
-	go get github.com/fsouza/go-dockerclien
+	go get github.com/fsouza/go-dockerclient
 	go get github.com/cenkalti/backoff
 
 .PHONY: build release docs
