@@ -28,4 +28,10 @@ circleci:
 	go get -u github.com/gliderlabs/glu
 	glu circleci
 
+build-deps:
+	go get github.com/coreos/etcd
+	go get github.com/coreos/go-etcd
+	go get github.com/hashicorp/consul
+	go get gopkg.in/coreos/go-etcd.v0
+
 .PHONY: build release docs
