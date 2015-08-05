@@ -35,5 +35,6 @@ build-deps:
 	go get gopkg.in/coreos/go-etcd.v0
 	go get github.com/fsouza/go-dockerclient
 	go get github.com/cenkalti/backoff
+	go get github.com/ugorji/go/codec
 
 .PHONY: build release docs
