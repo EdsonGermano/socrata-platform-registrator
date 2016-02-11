@@ -12,7 +12,7 @@ import (
 	"github.com/gliderlabs/registrator/bridge"
 )
 
-var Version string
+var VERSION string
 
 var hostIp = flag.String("ip", "", "IP for ports mapped to the host")
 var internal = flag.Bool("internal", false, "Use internal ports instead of published ones")
@@ -37,10 +37,10 @@ func assert(err error) {
 
 func main() {
 	if len(os.Args) == 2 && os.Args[1] == "--version" {
-		fmt.Println(Version)
+		fmt.Println(VERSION)
 		os.Exit(0)
 	}
-	log.Printf("Starting registrator %s ...", Version)
+	log.Printf("Starting registrator %s ...", VERSION)
 
 	flag.Parse()
 
